@@ -1,0 +1,65 @@
+@font-face{ font-family: Satyr;
+    
+   
+    src: url('../fonts/Satyr/Satyr.otf') format('opentype');
+}
+@font-face{ font-family: Brandon;
+    
+    src: url("../fonts/Brandon/Brandon_bld.otf") format('opentype');
+    
+}
+body{
+   
+   
+   
+    background-color:#EEE4DE; 
+    
+}
+
+form{
+    position:relative; 
+    top:500px; 
+    display:flex; 
+    justify-content:center;
+     
+}
+
+input[type=text]{
+    font-family:Brandon;
+    font-weight:bold; 
+    height:100px;
+    width:1000px; 
+    border-radius:5px; 
+    border:none;
+    font-size:50px; 
+
+}
+::placeholder{
+
+    font-size:50px;
+    opacity:0.5; 
+    color:#970303;
+
+}
+.button{
+    font-family:Satyr;
+  
+    font-size:30px;
+    width: 250px;
+    height:100px;
+    margin-left:10px; 
+  
+    border-color:#970303;
+    border-style: solid;
+    background-color:#970303; 
+    
+    color:#EEE4DE;
+    opacity: 0.7;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+
+.button:hover {
+    opacity: 1
+}

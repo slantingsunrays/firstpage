@@ -1,0 +1,135 @@
+@font-face{ 
+    font-family: Brandon;
+    
+    
+    src: url('../fonts/Brandon/Brandon_med.otf') format('opentype');
+    
+}
+
+@font-face{ 
+    font-family: Satyr;
+    
+    
+    src: url('../fonts/Satyr/Satyr.otf') format('opentype');
+    
+}
+
+
+
+.closeButton{
+    position:relative;
+    left:250px; 
+    bottom:200px; 
+}
+span{
+    
+    
+   
+    width:auto; 
+    height:auto; 
+    
+    font-family: Brandon;
+    font-size:25px;
+    color:#FFF9DF;
+}
+
+span:hover{
+color:#970303;
+cursor:pointer; 
+
+}
+
+div{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    
+    
+}
+label{
+    font-family:Brandon;
+    padding-bottom:30px; 
+    font-weight:bold;
+    font-size:40px;  
+    color: #970303;
+    margin-bottom:20px;
+}
+.firstform{
+    font-family:Brandon; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:flex; 
+    flex-direction:column;
+    justify-content:center; 
+    align-items:center;
+    background-color: #CFBBAF;
+    height:900px;
+    width:700px; 
+    border-radius:7px; 
+}
+
+
+input[type=text], select {
+    font-size:25px; 
+    margin-bottom:30px; 
+    width: 350px;
+    height:30px;
+    border: none;
+    border-bottom:2px solid #970303;
+    background-color: #CFBBAF;
+  }
+
+input[type=password], select {
+    width: 350px;
+    height:30px;
+    border: none;
+    border-bottom: 2px solid #970303;
+    background-color: #CFBBAF;
+  }
+  
+ ::placeholder  { 
+    
+    font-family: Brandon;
+    font-size:25px;   
+    color: #5E5454;  
+    opacity: 1;
+  }
+  
+a{
+    margin-top:30px; 
+    color:#EEE4DE;
+    font-family: Brandon;
+    font-size:16px; 
+  }
+
+a:hover{
+    color:#970303;
+
+}
+button{
+    margin-top:20px;
+    width: 170px;
+    height:50px;
+    border-radius:7px;
+    border-color:#970303;
+    border-style: solid;
+    background-color:#970303; 
+    font-family: Brandon;
+    font-size:25px;
+    color:#FFF9DF;
+}
+button{
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;   
+
+}
+button:hover {opacity: 1}
+
+
+
+input:focus {
+    outline:none; 
+}

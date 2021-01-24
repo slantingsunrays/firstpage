@@ -1,0 +1,99 @@
+@font-face{ 
+    font-family: Brandon;
+    
+    
+    src: url('../fonts/Brandon/Brandon_med.otf') format('opentype');
+    
+}
+
+
+@font-face{ 
+    font-family: Satyr;
+    
+    
+    src: url('../fonts/Satyr/Satyr.otf') format('opentype');
+    
+}
+
+body{
+
+    background-color:#EEE4DE; 
+}
+    
+    
+
+
+
+.parentPage{
+    position:relative;  
+    display:flex;
+    justify-content:space-around; 
+    flex-wrap:wrap; 
+    flex-direction:row; 
+    
+    }
+.eachPage{
+    position:relative; 
+    top:100px; 
+    display:flex;
+    justify-content:center;    
+    flex-direction:column; 
+    align-items:center; 
+    text-align:center; 
+    color:#EEE4DE;
+    background-color:#5E5454;
+    width:400px;
+    height:500px; 
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family:Brandon; 
+    font-size:25px; 
+
+
+}
+
+a{
+    font-family:Satyr; 
+    color:#EEE4DE; 
+    text-decoration:none;
+    
+    font-size:25px; 
+}
+
+p{
+    font-family:Brandon;
+    font-size:25px; 
+}
+
+
+
+.button{
+    
+    
+    margin-top:30px; 
+    margin-right:10px; 
+   
+    width: 150px;
+    height:40px;
+    border-color:#970303;
+    border-style: solid;
+    background-color:#970303; 
+  
+    color:#EEE4DE;
+    opacity: 0.7;
+    transition: 0.3s;
+    cursor: pointer; 
+    
+}
+
+.button:hover {
+    opacity: 1
+}
+
+
+
+ input:focus {
+    outline:none; 
+} 

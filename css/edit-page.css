@@ -1,0 +1,101 @@
+@font-face{ font-family: Satyr;
+    
+   
+    src: url('../fonts/Satyr/Satyr.otf') format('opentype');
+}
+@font-face{ 
+    font-family: Brandon;
+    
+    
+    src: url('../fonts/Brandon/Brandon_bld.otf') format('opentype');
+    
+}
+
+
+body{
+   
+    font-family:Satyr;
+    background-color:#EEE4DE; 
+    
+}
+
+#storyForm{
+    display:flex;
+    justify-content:center; 
+    
+}
+form{
+    display:grid;
+    align-items:center;
+    margin-top:20px;  
+    padding-right:20px; 
+    padding-left:20px; 
+    padding-bottom:20px;
+    width:800px;
+    border:2px solid #5E5454;
+
+
+}
+
+
+::placeholder{
+    font-family:Satyr;
+    font-size: 16px;
+    color:#5E5454;
+
+}
+input[type=text]{
+    background-color: #CFBBAF;
+   
+  border-style:solid;
+  border-color:#5E5454; 
+  height:40px; 
+  font:25px; 
+}
+
+textarea{
+    background-color: #CFBBAF;
+    resize:none;
+    border:2px solid #5E5454;
+    font:25px; 
+}
+button{
+
+    margin-top:20px;
+    width: 150px;
+    height:50px;
+  
+    border-color:#970303;
+    border-style: solid;
+    background-color:#970303; 
+    font-family:Brandon;
+    font-size:20px; 
+    color:#EEE4DE;
+    opacity: 0.7;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+
+.button:hover {
+    opacity: 1
+}
+
+
+input:focus {
+    outline:none; 
+} 
+
+
+
+
+label{
+
+    font-family:Brandon;
+    font-size:25px;
+    display: inline-block;
+    padding-top:20px; 
+    color: #5E5454;
+    
+}
+

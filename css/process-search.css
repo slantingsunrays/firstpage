@@ -1,0 +1,62 @@
+@font-face{ 
+    font-family: Brandon;
+    
+    
+    src: url('../fonts/Brandon/Brandon_med.otf') format('opentype');
+    
+}
+
+@font-face{ 
+    font-family: Satyr;
+    
+    
+    src: url('../fonts/Satyr/Satyr.otf') format('opentype');
+    
+}
+
+body{
+    
+    
+    background-color:#EEE4DE; 
+}
+
+#searchButton{
+    margin-top:1000px; 
+    font-family:Brandon; 
+    font-size:25px;     
+    color:#EEE4DE; 
+    text-decoration:none;
+    
+}
+button{
+    
+    position: sticky;
+    top: 0; 
+    margin-top:30px; 
+    margin-bottom:30px;
+  
+    border-color:#970303;
+    border-style: solid;  
+    width:300px; 
+    background-color:#970303; 
+}
+
+#readMore:hover{
+    color:#970303;
+
+}
+a{
+    
+    color:#5E5454;
+   
+    font-size:25px; 
+  }
+
+
+.eachPage{
+    
+    margin-top:30px;
+    margin-bottom:30px; 
+    font-family:Satyr; 
+    font-size:25px; 
+}
